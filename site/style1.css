@@ -4,6 +4,9 @@
 			padding: 0px;
 
 		}
+		body{
+			 border: 2px solid black;
+		}
 		#container{
 			border: 2px solid black;
 			
@@ -16,6 +19,7 @@
 		}
 		h2{
 			margin-bottom: 10px;
+			text-align: center
 		}
 		#one{
 			border-left: 2px solid black;
