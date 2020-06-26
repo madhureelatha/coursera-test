@@ -8,22 +8,23 @@
 			 border: 2px solid black;
 		}
 		#container{
-			border: 2px solid black;
+			border: 1px solid black;
 			
 			width: 300px;
 			height: 170px;
 			float: left;
-			background-color: grey;
+			background-color: #B0E0DC;
 			margin-bottom: 5px;
 			margin-left: 5px;
 		}
 		h2{
-			margin-bottom: 10px;
+			margin-top: 40px;
+			margin-bottom: 40px;
 			text-align: center
 		}
 		#one{
-			border-left: 2px solid black;
-			border-bottom: 2px solid black;
+			border-left: 1px solid black;
+			border-bottom: 1px solid black;
 			background-color: pink;
 			padding: 0px;
 			float: right;
@@ -32,8 +33,8 @@
   
 		}
 		#two{
-			border-left: 2px solid black;
-			border-bottom: 2px solid black;
+			border-left: 1px solid black;
+			border-bottom: 1px solid black;
 			background-color: #A83333;
 			color: white;
 			padding: 0px;
@@ -43,8 +44,8 @@
   
 		}
 	     #three{
-	     	border-left: 2px solid black;
-			border-bottom: 2px solid black;
+	     	border-left: 1px solid black;
+			border-bottom: 1px solid black;
 				background-color: #E8D47B;
 			padding: 0px;
 			float: right;
@@ -62,7 +63,7 @@
 		@media (min-width: 768px) and (max-width: 991px) {
 			#container{
 				width: 45%;
-				height:255px;
+				height:180px;
 				margin-left: 9px;
 			    margin-right: 9px;
 			    margin-bottom: 20px;
@@ -70,6 +71,7 @@
 			}
 			div #container:nth-child(3){
 				width: 92%;
+				height: 100px;
 
 			}
 
