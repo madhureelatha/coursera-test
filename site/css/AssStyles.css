@@ -1,0 +1,163 @@
+body{
+  font-size: 17px;
+  background-color: #fff;
+    font-family: 'sans-serif',cursive;
+  color: #fff;
+
+}
+#header-nav {
+  background-color: #378ABC;
+  border-radius: 0;
+  border: 1px solid black;
+  height: 60px;
+  
+}
+.navbar-brand {
+  padding-top: 15px;
+  
+
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Cambria', serif;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: right;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 8px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+}
+#nav-list a:hover {
+  background: #fff;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+  #xs-deliver { 
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-family: "Brush Script MT",serif;
+}
+
+.container .jumbotron {
+
+   background-color: #B0E0DC;
+
+  border: 2px solid #3F0C1F;
+  width: 100%;
+  box-sizing: border-box;
+}
+  
+#main-content #chicken-biryani p
+{
+  font-size: 0.9em;
+  color: black;
+  text-align: justify; 
+  font-family: "Garamond";
+  font-weight: bold;
+}
+#main-content  #chicken-biryani #chicken {
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+  font-family: "Garamond";
+  font-weight: bold;
+}
+#main-content #hamburger p
+{
+  font-size: 0.9em;
+  color: black;
+  text-align: justify; 
+  margin-bottom: 15px;
+  font-family: "Garamond";
+  font-weight: bold;
+}
+#main-content  #hamburger #burger {
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+  font-family: "Garamond";
+  font-weight: bold;
+}
+#main-content #sushi-Main p
+{
+  font-size: 0.9em;
+  color: black;
+  text-align: justify; 
+  margin-bottom: 15px;
+  font-family: "Garamond";
+  font-weight: bold;
+}
+#main-content  #sushi-Main #sushi {
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Garamond";
+  font-weight: bold;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+
+  /* Home Page */
+  .container .jumbotron {
+  
+    height: 1000px;
+  }
+  /* End Home Page */
+ 
+}
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 40px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  }
+
